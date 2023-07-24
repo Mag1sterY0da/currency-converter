@@ -1,0 +1,37 @@
+<div class="converter-container">
+  <div class="input-container">
+    <input
+      type="number"
+      [(ngModel)]="amountFrom"
+      (ngModelChange)="onAmountFromChange()"
+      class="input-field"
+    />
+    <select
+      [(ngModel)]="currencyFrom"
+      (ngModelChange)="onCurrencyFromChange()"
+      class="select-field"
+    >
+      <option value="UAH">UAH</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+  </div>
+  <div class="equals-sign">=</div>
+  <div class="input-container">
+    <input
+      type="number"
+      [(ngModel)]="amountTo"
+      (ngModelChange)="onAmountToChange()"
+      class="input-field"
+    />
+    <select
+      [(ngModel)]="currencyTo"
+      (ngModelChange)="onCurrencyToChange()"
+      class="select-field"
+    >
+      <option value="UAH">UAH</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+  </div>
+</div>

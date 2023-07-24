@@ -1,0 +1,36 @@
+/* currency-header.component.css */
+
+/* Import the Google Fonts font (Roboto) */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.header-container {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif; /* Apply the Roboto font */
+}
+
+.header-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.exchange-rates {
+  text-align: right;
+}
+
+.exchange-rates p {
+  margin: 5px 0;
+}
+
+.exchange-rates p:first-child {
+  margin-top: 0;
+}
+
+.exchange-rates p:last-child {
+  margin-bottom: 0;
+}

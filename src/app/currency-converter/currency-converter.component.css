@@ -1,0 +1,62 @@
+.converter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-field,
+.select-field {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 100px;
+}
+
+.select-field {
+  width: 100px;
+}
+
+.select-field::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+}
+
+.input-field:focus,
+.select-field:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 4px rgba(52, 152, 219, 0.5);
+}
+
+.equals-sign {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.equals-sign {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}

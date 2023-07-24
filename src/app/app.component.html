@@ -1,0 +1,7 @@
+<div>
+  <div *ngIf="loading">Loading exchange rates...</div>
+  <div *ngIf="!loading">
+    <app-currency-header [rates]="rates"></app-currency-header>
+    <app-currency-converter [rates]="rates"></app-currency-converter>
+  </div>
+</div>
